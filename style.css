@@ -1,5 +1,5 @@
 /*class = punkt
-hashtag = id 
+# hashtag = id 
 color: #f09b9b rosa fin */
 
 
@@ -8,6 +8,35 @@ color: #f09b9b rosa fin */
     padding: 0;
 
 }
+.creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+@font-face {
+    font-family: "indie_flower";
+    src: url(fonts/IndieFlower-Regular.ttf);
+}
+
+@font-face {
+    font-family: "homemade";
+    src: url(fonts/HomemadeApple-Regular.ttf);
+}
+
+@font-face {
+    font-family: "homemade";
+    src: url();
+}
+
+
+h3 {font-family: "indie_flower";}
+
+h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+h2 {font-family: "homemade";}
+
 
 span {
     width: 20px;
@@ -28,8 +57,16 @@ nav {
     flex-flow: row;
 
 }
+/*
+@media screen and (min-width: 1200px) {
+    display: none;
+    display: block; 
+    visibility: hidden;
+    
+}
+*/
 
-div.nav {
+.nav {
     height: 150px;
     display: flex;
     justify-content: space-around;
@@ -41,6 +78,7 @@ div.nav {
 a, li {
     color: black;
     border-radius: 10px;
+    text-decoration: none;
     
    }
 
@@ -49,24 +87,73 @@ a:hover {
 
 }
 
-main {
+
+.main {
     background-color: #e1e1e1;
     width: auto;
     margin: 5px;
     padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+
+}
+
+.main#main_private {
+    display: block;
+    flex-direction: column;
+}
+
+.main#main_news {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row;
+    padding: 8px;
+}
+.form#column {
+    display: flex;
+    flex-flow: column;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row;
 }
 
 
-div.main {
+.femti {
+    width: 50%;
+}
+
+.label {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row;
+    padding: 8px;
+}
+
+.label#label {
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
     flex-flow: row;
     padding: 8px;
 }
 
 
-div.menu {
+
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -95,6 +182,7 @@ head {
 }
 body {
     background-color: white;
+    padding: 0 10px;
 }
 div {
     background-color: #e1e1e1;
@@ -114,7 +202,19 @@ h3 {
 }
 
 
-button {background-color: #F18626;}
+button {
+    display: inline;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ed5935;
+    border-color: #ed5935;
+    padding: 4xp;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+
+
+}
 
 
 
@@ -134,4 +234,10 @@ li {
     border-radius: 10px;
     width: 140%;
     text-align: center;
+
+}
+
+svg {
+    width: 40px;
+    height: 40px;
 }
