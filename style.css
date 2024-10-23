@@ -56,16 +56,15 @@ header {
     margin: 5px;
     padding-top: 8px;
     padding-bottom: 8px;
-}
-
-.header {
-    height: 150px;
     display: flex;
     justify-content: space-around;
     flex-flow: row;
     align-items: center;
     row-gap: 8px;
+
 }
+
+
 
 .menu {
     display: flex;
@@ -107,36 +106,60 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row;
+    flex-flow: column;
 }
 
-
-.main {
-    background-color: #e1e1e1;
-    width: auto;
-    margin: 5px;
-    padding: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row;
-}
 
 .page {
     background-color: #e1e1e1;
     width: auto;
     margin: 5px;
     padding: 6px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section {
+    background-color: #e1e1e1;
+    width: auto;
+    margin: 5px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+.article_text {
+    background-color: #e1e1e1;
+    width: auto;
+    margin: 5px;
+    padding: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row;
 }
 
-article {
-    display: block;
-    flex-direction: column;
+.article_image {
+    background-color: #e1e1e1;
+    width: auto;
+    margin: 5px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
+
 
 
 
@@ -158,11 +181,7 @@ article {
     flex-flow: column;
 }
 
-.section {
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-}
+
 
 
 .femti {
