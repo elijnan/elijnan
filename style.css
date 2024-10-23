@@ -160,13 +160,15 @@ article {
     flex-flow: column;
 }
 
-
-
-
-.main#main_news {
+.gallery {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
 
+img.pokemon {
+    max-width: 30%;
 }
 
 .form {
