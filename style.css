@@ -163,8 +163,8 @@ article {
 .gallery {
     display: flex;
     justify-content: center;
-    flex-flow: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 img.pokemon {
@@ -182,7 +182,6 @@ img.pokemon {
     display: flex;
     flex-flow: column;
 }
-
 
 
 
