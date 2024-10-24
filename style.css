@@ -40,11 +40,20 @@ color: #f09b9b rosa fin */
 }
 
 
-h3 {font-family: "indie_flower";}
+h3 {
+    font-family: "indie_flower";
+    font-weight: bold;
+}
 
-h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: light;
+}
 
-h2 {font-family: "homemade";}
+h2 {
+    font-family: "homemade";
+    font-weight: normal;
+}
 
 
 span {
@@ -250,7 +259,7 @@ head {
 }
 body {
     background-color: white;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 div {
     background-color: #e1e1e1;
@@ -297,4 +306,11 @@ div.textit {
 svg {
     width: 40px;
     height: 40px;
+}
+
+
+@media screen and (min-width:480px) {
+    h2 {
+        font-weight: bold;
+    }
 }
